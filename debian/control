@@ -1,0 +1,12 @@
+Source: ros-turbulent-sros2-cmake
+Section: misc
+Priority: extra
+Maintainer: AWS RoboMaker <ros-contributions@amazon.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-test, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-sros2-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ros2cli, ros-turbulent-sros2, ros-turbulent-ros-workspace
+Description: Cmake macros to configure security for nodes
