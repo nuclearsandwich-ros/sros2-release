@@ -1,0 +1,12 @@
+Source: ros-testing-sros2-cmake
+Section: misc
+Priority: optional
+Maintainer: ROS Security Working Group <ros-security@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-test, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-sros2-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ros2cli, ros-testing-sros2, ros-testing-ros-workspace
+Description: CMake macros to configure security
